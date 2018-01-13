@@ -1,0 +1,3 @@
+<pur:CustomerDetails xmlns:pur="http://NamespaceTest.com/Purchase" xmlns:cus="http://NamespaceTest.com/CustomerTypes" xmlns:com="http://NamespaceTest.com/CommonTypes">
+  <cus:Name>Peter James</cus:Name>
+</pur:CustomerDetails>

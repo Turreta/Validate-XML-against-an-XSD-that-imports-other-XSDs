@@ -1,0 +1,22 @@
+<pur:Purchase xmlns:pur="http://NamespaceTest.com/Purchase" xmlns:ord="http://NamespaceTest.com/OrderTypes" xmlns:cus="http://NamespaceTest.com/CustomerTypes" xmlns:com="http://NamespaceTest.com/CommonTypes">
+  <pur:OrderDetail>
+    <!--1 or more repetitions:-->
+    <ord:Item>
+      <ord:ProductName>string</ord:ProductName>
+      <ord:Quantity>3</ord:Quantity>
+      <ord:UnitPrice>1000.00</ord:UnitPrice>
+    </ord:Item>
+  </pur:OrderDetail>
+  <pur:PaymentMethod>Cash</pur:PaymentMethod>
+  <pur:CustomerDetails>
+    <cus:Name>string</cus:Name>
+    <cus:DeliveryAddress>
+      <com:Line1>string</com:Line1>
+      <com:Line2>string</com:Line2>
+    </cus:DeliveryAddress>
+    <cus:BillingAddress>
+      <com:Line1>string</com:Line1>
+      <com:Line2>string</com:Line2>
+    </cus:BillingAddress>
+  </pur:CustomerDetails>
+</pur:Purchase>

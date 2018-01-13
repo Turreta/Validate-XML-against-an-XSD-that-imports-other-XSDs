@@ -1,0 +1,11 @@
+<pur:CustomerDetails xmlns:pur="http://NamespaceTest.com/Purchase" xmlns:cus="http://NamespaceTest.com/CustomerTypes" xmlns:com="http://NamespaceTest.com/CommonTypes">
+  <cus:Name>Peter James</cus:Name>
+  <cus:DeliveryAddress>
+    <com:Line1>141 Saint Carmen</com:Line1>
+    <com:Line2>Zeel Street, MA, US</com:Line2>
+  </cus:DeliveryAddress>
+  <cus:BillingAddress>
+    <com:Line1>142 Saint Carmen</com:Line1>
+    <com:Line2>Zeel Street, MA, US</com:Line2>
+  </cus:BillingAddress>
+</pur:CustomerDetails>
